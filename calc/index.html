@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Calculator</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<section class="calc">
+			<div class="calc__result">
+				<input type="text" id="operation" class="operation"></input>
+				<input id="result" class="result"></input>
+			</div>
+			<div class="calc__button button-calc">
+				<div class="button-calc__first-row button-calc__row">
+					<button id="eyler" class="button-calc__math">e</button>
+					<button id="protsent" class="button-calc__math">%</button>
+					<button id="sin" class="button-calc__math">sin</button>
+					<button id="deg" class="button-calc__math">deg</button>
+				</div>
+				<div class="button-calc__second-row button-calc__row">
+					<button id="ac" class="button-calc__math">Ac</button>
+					<button id="delete" class="button-calc__math">
+						<svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 0 22 18" fill="none">
+							<path
+								d="M6.5353 1.11994e-08H21.0003C21.2655 1.11994e-08 21.5199 0.105357 21.7074 0.292893C21.8949 0.48043 22.0003 0.734784 22.0003 1V17C22.0003 17.2652 21.8949 17.5196 21.7074 17.7071C21.5199 17.8946 21.2655 18 21.0003 18H6.5353C6.37071 18 6.20865 17.9594 6.06352 17.8818C5.91838 17.8042 5.79465 17.6919 5.7033 17.555L0.370298 9.555C0.260659 9.39067 0.202148 9.19755 0.202148 9C0.202148 8.80245 0.260659 8.60933 0.370298 8.445L5.7033 0.445C5.79465 0.308084 5.91838 0.195832 6.06352 0.118205C6.20865 0.0405779 6.37071 -2.46193e-05 6.5353 1.11994e-08ZM7.0703 2L2.4043 9L7.0703 16H20.0003V2H7.0703ZM13.0003 7.586L15.8283 4.757L17.2433 6.172L14.4143 9L17.2433 11.828L15.8283 13.243L13.0003 10.414L10.1723 13.243L8.7573 11.828L11.5863 9L8.7573 6.172L10.1723 4.757L13.0003 7.586Z"
+								fill="#858585" />
+						</svg>
+					</button>
+					<button id="division" class="button-calc__math button-calc__math_blue">/</button>
+					<button id="multiplication" class="button-calc__math button-calc__math_blue">*</button>
+				</div>
+				<div class="button-calc__third-row button-calc__row">
+					<button id="7" class="button-calc__math">7</button>
+					<button id="8" class="button-calc__math">8</button>
+					<button id="9" class="button-calc__math">9</button>
+					<button id="subtraction" class="button-calc__math button-calc__math_blue">-</button>
+				</div>
+				<div class="button-calc__row">
+					<div class="row">
+						<div class="button-calc__fourth-row button-calc__row">
+							<button id="4" class="button-calc__math">4</button>
+							<button id="5" class="button-calc__math">5</button>
+							<button id="6" class="button-calc__math">6</button>
+						</div>
+						<div class="button-calc__fifth-row button-calc__row">
+							<button id="1" class="button-calc__math">1</button>
+							<button id="2" class="button-calc__math">2</button>
+							<button id="3" class="button-calc__math">3</button>
+						</div>
+						<div class="button-calc__sixth-row button-calc__row">
+							<button id="0" class="button-calc__math">0</button>
+							<button id="dot" class="button-calc__math">.</button>
+						</div>
+					</div>
+					<div class="button-calc__columns button-calc__row">
+						<button id="addition" class="button-calc__math button-calc__math_blue">+</button>
+						<button id="equals" class="button-calc__math button-calc__math_blue">=</button>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<script src="./sctipt.js"></script>
+</body>
+
+</html>
