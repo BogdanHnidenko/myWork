@@ -2,11 +2,10 @@ const canvas = document.getElementById('game');
 const ctx = canvas.getContext("2d");
 
 const groundImg = new Image();
-groundImg.src = '../img/background.png';
+groundImg.src = 'img/background.png';
 
 const foodImg = new Image();
-foodImg.src = '../img/food.png';
-
+foodImg.src = 'img/food.png';
 let box = 32;
 let score = 0;
 
